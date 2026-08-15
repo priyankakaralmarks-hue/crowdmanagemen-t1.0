@@ -1,0 +1,20 @@
+{
+  "name": "crowd-resource-allocator-backend",
+  "version": "1.0.0",
+  "description": "Backend for Crowd-Sourced Resource Allocation Tool",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "seed": "node src/seed/seedData.js",
+    "test": "node test/backend-test.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.8.1",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.2",
+    "jsonwebtoken": "^9.0.3",
+    "sql.js": "^1.14.2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "crowd-resource-allocator",
+  "version": "1.0.0",
+  "description": "Full-Stack Crowd-Sourced Resource Allocation Tool with Explainable Ranking Algorithm",
+  "scripts": {
+    "start": "node backend/src/server.js",
+    "build": "npm run build --prefix frontend",
+    "test": "npm test --prefix backend",
+    "seed": "npm run seed --prefix backend",
+    "dev:backend": "npm start --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend"
+  },
+  "keywords": [
+    "resource-allocation",
+    "explainable-ai",
+    "crowd-sourcing",
+    "transparent-ranking",
+    "full-stack"
+  ],
+  "author": "Antigravity Team",
+  "license": "MIT"
+}
